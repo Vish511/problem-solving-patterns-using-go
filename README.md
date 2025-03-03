@@ -40,10 +40,10 @@ The repository is organized as follows:
 
 The `main.go` file is the entry point for running and testing different pattern solutions. To run a specific problem, you need to **uncomment** the corresponding line in `main.go`. Once the desired problem is uncommented, run the program to see the output.
 
-### Problem Files
-Each problem in this repository is stored in its own dedicated Go file. The problem statement, along with input/output examples and explanations, are commented directly inside the code file. This way, anyone reading the code can easily understand the problem and how it is being solved.
+### Code Files
+Each coding challenge in this repository is stored in its own dedicated Go file. The problem statement, along with input/output examples and explanations, are commented directly inside the code file. This way, anyone reading the code can easily understand the problem and how it is being solved.
 
-Format of Each Problem File
+Format of Each Coding Challenge File
 Each file follows a consistent structure where the problem statement, input and output examples, and explanation are provided in comments at the top of the file. Here's an example of how this looks:
 
 ```bash
