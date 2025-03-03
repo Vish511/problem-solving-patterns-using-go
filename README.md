@@ -40,6 +40,51 @@ The repository is organized as follows:
 
 The `main.go` file is the entry point for running and testing different pattern solutions. To run a specific problem, you need to **uncomment** the corresponding line in `main.go`. Once the desired problem is uncommented, run the program to see the output.
 
+### Problem Files
+Each problem in this repository is stored in its own dedicated Go file. The problem statement, along with input/output examples and explanations, are commented directly inside the code file. This way, anyone reading the code can easily understand the problem and how it is being solved.
+
+Format of Each Problem File
+Each file follows a consistent structure where the problem statement, input and output examples, and explanation are provided in comments at the top of the file. Here's an example of how this looks:
+
+```bash
+/*
+Problem Statement #1: Longest Substring with No More Than K Distinct Characters
+
+Given a string, find the length of the longest substring in it with no more than K distinct characters.
+
+### Input:
+- A string `s` consisting of lowercase letters.
+- An integer `K`, the maximum number of distinct characters allowed in the substring.
+
+### Output:
+- Return an integer representing the length of the longest substring with at most K distinct characters.
+
+### Example 1:
+
+Input: 
+- String: "araaci"
+- K = 2
+
+Output:
+- 4
+
+Explanation:
+- The longest substring with no more than '2' distinct characters is "araa".
+
+### Example 2:
+
+Input: 
+- String: "araaci"
+- K = 1
+
+Output:
+- 2
+
+Explanation:
+- The longest substring with no more than '1' distinct character is "aa".
+*/
+```
+
 ---
 
 ## Patterns Covered
@@ -93,8 +138,8 @@ Each folder contains problem-specific implementations, typically with a `solutio
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/grokking-coding-patterns-go.git
-    cd grokking-coding-patterns-go
+    git clone https://github.com/Vish511/problem-solving-patterns-using-go.git
+    cd problem-solving-patterns-using-go
     ```
 
 2. **Open the `main.go` file** and **uncomment the line** for the specific problem you wish to run. For example, to run Problem 1 under the Sliding Window pattern, uncomment the corresponding line in `main.go`:
